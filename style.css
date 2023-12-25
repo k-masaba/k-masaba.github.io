@@ -31,6 +31,10 @@ p, body {
     font-size: 48px;
   }
 
+  p {
+    font-size: 21px;
+  }
+
   .frame, .mainframe {
     margin-top: 30%;
   }
