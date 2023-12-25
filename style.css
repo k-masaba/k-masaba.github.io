@@ -24,12 +24,6 @@ p, body {
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .frame, .mainframe {
-    margin-top: 30%;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .links {
     display: flex;
@@ -39,5 +33,9 @@ p, body {
 
   p {
     font-size: 28px;
+  }
+
+  .frame, .mainframe {
+    margin-top: 30%;
   }
 }
