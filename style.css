@@ -35,7 +35,7 @@ p, body {
   .links {
     display: flex;
     flex-direction: column;
-    font-size: 56px;
+    font-size: 52px;
   }
 
   p {
