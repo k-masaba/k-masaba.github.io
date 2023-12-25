@@ -18,13 +18,13 @@ p, body {
   margin: 7.5%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .links a {
     padding: 1.5%;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .links {
     display: flex;
     flex-direction: column;
