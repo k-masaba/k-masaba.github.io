@@ -18,9 +18,16 @@ p, body {
   margin: 7.5%;
 }
 
+
 @media screen and (min-width: 1000px) {
   .links a {
     padding: 1.5%;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1000px){
+  .frame, .mainframe {
+    margin-top: 30%;
   }
 }
 
