@@ -18,13 +18,19 @@ p, body {
   margin: 7.5%;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 700px) {
   .links a {
     padding: 1.5%;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
+  .frame, .mainframe {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .links {
     display: flex;
     flex-direction: column;
@@ -33,9 +39,5 @@ p, body {
 
   p {
     font-size: 28px;
-  }
-
-  .frame, .mainframe {
-    margin-top: 30%;
   }
 }
